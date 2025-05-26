@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnBackCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+
+    <!-- Gambar -->
+    <ImageView
+        android:id="@+id/imageCorrectAnswer"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:background="#CCCCCC"
+        android:contentDescription="Gambar Pertanyaan"
+        android:scaleType="centerInside"
+        android:padding="4dp"
+        android:backgroundTint="@android:color/white"/>
+
+    <!-- Status Jawaban -->
+    <TextView
+        android:id="@+id/textJawabanBenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawaban anda Benar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Penjelasan Jawaban -->
+    <TextView
+        android:id="@+id/textPenjelasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penjelasan Jawaban Benar"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"/>
+
+    <!-- Tombol Lanjut -->
+    <Button
+        android:id="@+id/btnLanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Lanjut"
+        android:layout_marginTop="32dp"/>
+</LinearLayout>

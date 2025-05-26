@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Teks ucapan selamat -->
+    <TextView
+        android:id="@+id/textSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat anda sudah menyelesaikan semua materi di chapter ini"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <!-- Link web belajar lebih dalam -->
+    <TextView
+        android:id="@+id/textLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jika anda ingin mempelajari materi ini lebih mendalam bisa
+        ke situs websiate ini (https://www.flaticon.com/search?word=back)"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:autoLink="web"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Tombol selesai -->
+    <Button
+        android:id="@+id/btnSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol selesai" />
+</LinearLayout>

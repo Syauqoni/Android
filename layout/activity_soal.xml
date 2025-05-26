@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"/>
+
+    <!-- Grid 5x5 -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <!-- Contoh Level 1 (aktif) -->
+        <Button
+            android:id="@+id/btnSoal1"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="1"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/lock"
+            android:backgroundTint="#00796B"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:contentDescription="Terkunci"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/lock"
+            android:backgroundTint="#00796B"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:contentDescription="Terkunci"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/lock"
+            android:backgroundTint="#00796B"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:contentDescription="Terkunci"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/lock"
+            android:backgroundTint="#00796B"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:contentDescription="Terkunci"
+            android:clickable="false"
+            android:focusable="false"/>
+
+
+    </GridLayout>
+</LinearLayout>
